@@ -1,14 +1,15 @@
 <html>
 
 <head>
-  <title> Form HTML  </title>
+  <title> Form HTML   </title>
 </head>
   <body>
+    <form action="after_submit.html">
     <font>
     <p font type = arial black style="font-size:50px" > <b>Form HTML</b> </p>
     </br>
 
-      Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: <input type ="text" name = "nama">
+      Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: <input type ="text" name = "nama" required="required">
       <br>
       </br>
 
@@ -278,7 +279,7 @@
 </select></br>
   <br>
   <label for="email"> Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp :</label>
-  <input type="email" id="email" name="email"></br>
+  <input type="email" id="email" name="email" required></br>
 </address>
 </br>
 
@@ -288,6 +289,6 @@
   <br>
     Comment &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
     <textarea rows="5" cols="60" name="comment" form="usrform"></textarea>
-    <button type="submit" form="comment" value="Submit">Submit</button>
+    <input type="submit" value="submit"></input>
 </body>
 </html>
