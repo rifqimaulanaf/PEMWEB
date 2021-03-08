@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+
+}
+body{
+  background-color: #76ACFE;
+  background-position: cover;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+div.sosial{
+
+  width: 100px;
+  padding: 0 50px;
+  margin:0 auto;
+  transition: 0.4s;
+
+}
+div.sosial ul li {
+  margin-top: 300px;
+  width: 30px;
+  display: inline-block;
+  color:#fff;
+
+}
+
+header{
+  border: 1px solid;
+  width: 100%;
+  margin: 0 auto;
+
+  background-color: #76ACFE;
+
+
+}
+header h1{
+  position:absolute;
+  float: left;
+  padding: 15px 0;
+
+}
+header ul{
+  float:right;
+
+}
+header ul li{
+  float: right;
+  display: inline-block;
+}
+header ul li a{
+  float: right;
+  padding: 25px 20px;
+  display: inline-block;
+}
+.container{
+
+  width: 80%;
+  margin: 0 auto;
+
+}
+.container:after{
+
+  background-color: #76ACFE;
+}
+header ul li a:hover {
+  background-color: #72777F;
+}
+.card{
+  border: 1px solid;
+  margin-top: 100px;
+  height: 60vh;
+  background-position: center;
+  background-image: url('https://w.wallhaven.cc/full/39/wallhaven-397e29.jpg')
+
+
+}
+
+.card h1 {
+  text-align: center;
+  border: 1px solid;
+  margin-top: 200px;
+  margin-left: 620px;
+  position: absolute;
+}
+tr{
+  color: #000;
+
+}
+th{
+  background-color:  #3D5BEF;
+
+}
+td{
+  background-color: #fff;
+  text-align: center;
+}
