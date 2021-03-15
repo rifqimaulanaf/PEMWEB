@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <script>
+    function test(){
+      var  val1=document.kirim.T1. value //menampilkan bilangan angka pada T1 yg sudah di tampilkan
+      if(val1%2==0)////menampilkan bilangan genap / ganjil pada kolom T2 yg sudah di tampilkan
+
+      document.kirim.T2. value="bilangan genap" //menampilkan bilangan genap pada kolom T2 yg sudah di tampilkan
+      else
+      document.kirim.T2. value="bilangan ganjil"//menampilkan bilangan ganjil pada kolom T2 yg sudah di tampilkan
+
+    }
+  </script>
+  <body>
+    <form method="POST" name="kirim">
+      <p>BIL : <input type="text" name="T1" size="20"> Merupakan BIL <input type="text" name="T2" size="20"></p> <!--menampilkan input text T1 dan T2-->
+      <p><input type="button" name="B1" value="TEBAK" onclick=test()></p><!--menampilkan tombol untuk menampilkan function test-->
+    </form>
+  </body>
+</html>
