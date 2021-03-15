@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<head>
+<title>KALKULATOR</title>
+<p id="date"></p>
+ <script LANGUAGE="JavaScript">
+ function modif(){
+     var x = new Date(document.lastModified);
+     // lastModified akan berfungsi sebagai penampilan tanggal terakhir kali disimpan pada file jam akan berjalan real time ketika file di onlinekan atau menjadi cloud
+     alert( document.getElementById("date").innerHTML = x);// menampilkan lastModified pada alert box
+   }
+ function cek(){
+ if(form.bil1.value == "" || form.bil2.value == ""){
+ alert("data kosong"); //jika angka kosong maka pesan akan tampil
+ exit;
+  }
+ }
+
+ function tambah() {
+ cek(); //panggil function cek
+ modif();// lastModified berfungsi sebagai penampilan tanggal terakhir kali di masukkan ketika angka yang dimasukkan sudah keluar
+ a=parseInt(form.bil1.value); //mengisi variabel a dengan isi dari input name angka1
+ b=parseInt(form.bil2.value); //mengisi variabel b dengan isi dari input name angka2
+ c=a+b ;//menjumlahkan kedua variabel
+ form.total.value = c; //memberikan hasil perkalian ke input name total
+
+ }
+ function kali() {
+ cek();//panggil function cek
+ modif();// lastModified berfungsi sebagai penampilan tanggal terakhir kali di masukkan ketika angka yang dimasukkan sudah keluar
+ a=parseInt(form.bil1.value);//mengisi variabel a dengan isi dari input name angka1
+ b=parseInt(form.bil2.value);//mengisi variabel b dengan isi dari input name angka2
+ c=a*b;//megalikan kedua variabel
+ form.total.value = c;//memberikan hasil perkalian ke input name total
+ }
+ function kurang() {
+ cek();
+ modif();// lastModified berfungsi sebagai penampilan tanggal terakhir kali di masukkan ketika angka yang dimasukkan sudah keluar
+ a=parseInt(form.bil1.value);//mengisi variabel a dengan isi dari input name angka1
+
+ b=parseInt(form.bil2.value);//mengisi variabel b dengan isi dari input name angka2
+ c=a-b;//mengurangi kedua variabel
+ form.total.value = c;//memberikan hasil pengurangan ke input name total
+ }
+ function bagi() {
+ cek();
+ modif();// lastModified berfungsi sebagai penampilan tanggal terakhir kali di masukkan ketika angka yang dimasukkan sudah keluar
+ a=parseInt(form.bil1.value);//mengisi variabel a dengan isi dari input name angka1
+ b=parseInt(form.bil2.value);//mengisi variabel b dengan isi dari input name angka2
+ c=a/b;//membagi kedua variabel
+ form.total.value = c;
+ }
+ function reset() {
+ form.bil1.value="";
+ form.bil2.value="";
+ form.total.value = "";//memberikan hasil  ke input name total
+ }
+ </script>
+</head>
+<body>
+ <form name="form">
+ Angka  pertama
+ <input type=text name="bil1" size=3><br><br><!--menampilkan input text angka pertama-->
+ Angka  kedua
+ <input name="bil2" type="text" size="3"><br><!-- menampilkan input text kedua> -->
+ <br>
+ Hasil <input type="text" value="" name="total" size="9"><!--menampilkan input text hasil-->
+ <br><br>
+ <!-- membuat event ketika tombol di klik maka memanggil function javascript -->
+ <input type=button name=submit onclick="tambah()" value="+"> <!--menampilkan tombol tambah-->
+ <input type=button name=submit onclick="kali()" value="X"> <!--menampilkan tombol kali-->
+ <input type=button name=submit onclick="bagi()" value="/"> <!--menampilkan tombol bagi-->
+ <input type=button name=submit onclick="kurang()" value="-"> <!--menampilkan tombol kurang-->
+ <input type=button name=submit onclick="reset()" value="Reset"> <!--menampilkan tombol reset-->
+ </form>
+
+</body>
+</html>

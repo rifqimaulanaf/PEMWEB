@@ -87,14 +87,14 @@ header ul li a:hover {
   position: absolute;
 }
 tr{
-  color: #000;
-
+color: #fff
 }
+
 th{
   background-color:  #3D5BEF;
-
+color: #fff;
 }
 td{
-  background-color: #fff;
+  background-color: #7D7E85;
   text-align: center;
 }

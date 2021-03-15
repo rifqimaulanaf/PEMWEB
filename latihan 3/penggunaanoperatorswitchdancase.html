@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Penggunaan operator switch untuk seleksi kondisi Pemakaian looping </title>
+  </head>
+  <script>
+    function test (){ // penggunaan switch pada seleksi kondisi
+      val1=window.prompt("Input Nilai(1-5):")
+      switch(val1){
+        case"1":
+        document.write("Angka satu") // jka input memberikan angka 1 maka akan tampil tulisan angka satu
+        break
+
+        case"2":
+        document.write("Angka dua")// jka input memberikan angka 2 maka akan tampil tulisan angka dua
+        break
+
+        case"3":
+        document.write("Angka tiga")// jka input memberikan angka 3 maka akan tampil tulisan angka tiga
+        break
+
+        case"4":
+        document.write("Angka empat")// jka input memberikan angka 4 maka akan tampil tulisan angka empat
+        break
+
+        case"5":
+        document.write("Angka lima")// jka input memberikan angka 5 maka akan tampil tulisan angka lima
+        break
+
+        default:
+        document.write("Angka lainnya")// jka input memberikan angka lebih dari 5 maka akan tampil tulisan angka lainnya
+        break
+      }
+    }
+    </script>
+  <body>
+    <input type="button" name="button1" value="switch" onclick=test()><!--menampilkan tombol untuk menampilkan function test()-->
+  </body>
+</html>
