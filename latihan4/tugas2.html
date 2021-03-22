@@ -1,25 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>object document</title>
-  </head>
-  <script>
-    function ubahWarnaLB(warna){
-      document.bgColor=warna; // mengubah warna background
-    }
-    function ubahWarnaLD(warna){
-      document.fgColor=warna; // mengubah warna fg atau tulisan
-    }
-  </script>
-  <h1>TEST</h1>
-  <form>
-    <input type="button"  value="Latar belakang hijau" onclick="ubahWarnaLB('GREEN')"><!--menampilkan tombol untuk mengubah warna background jadi hijau-->
-    <input type="button"  value="Latar belakang putih" onclick="ubahWarnaLB('WHITE')"><!--menampilkan tombol untuk mengubah warna background jadi putih-->
-    <input type="button"  value="Teks kuning" onclick="ubahWarnaLD('YELLOW')"><!--menampilkan tombol untuk mengubah warna text jadi kuning-->
-    <input type="button"  value="Teks Biru" onclick="ubahWarnaLD('BLUE')"><!--menampilkan tombol untuk mengubah warna text jadi biru-->
-  </form>
-  <body>
+<html>
+<head>
+<style>
+#myDIV {
+  float: left;
+  width: 50px;
+  height: 90px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+#myDIV1 {
+  float: left;
+  width: 50px;
+  margin-left: 40px;
+  height: 90px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+#myDIV2 {
+  float: left;
+  width: 50px;
+    margin-left: 40px;
+  height: 90px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+#myDIV3 {
+  float: left;
+  width: 50px;
+    margin-left: 40px;
+  height: 90px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+  <p>Click kotak dibawah 2x </p>
+    <div id="myDIV" ondblclick="myFunction()"></div>
+    <div id="myDIV1" ondblclick="myFunction1()"></div>
+    <div id="myDIV2" ondblclick="myFunction2()"></div>
+    <div id="myDIV3" ondblclick="myFunction3()"></div>
 
-  </body>
+<script>
+function myFunction() {
+  document.getElementById("myDIV").style.backgroundColor = "red";
+}
+function myFunction1() {
+  document.getElementById("myDIV1").style.backgroundColor = "red";
+}
+function myFunction2() {
+  document.getElementById("myDIV2").style.backgroundColor = "red";
+}
+function myFunction3() {
+  document.getElementById("myDIV3").style.backgroundColor = "red";
+}
+</script>
+
+</body>
 </html>
