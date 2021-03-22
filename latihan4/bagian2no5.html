@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Satu</title>
+    <script src="jquery-3.6.0.min.js"></script><!--perintah untuk mengaktifkan jquery-->
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $(".sembunyi").click(function(){$("#foto").hide("slow")});//digunakan untuk menyembunyikan foto
+      $(".tampil").click(function() {$("#foto").show("slow")});//digunakan untuk menampilakn foto
+      });
+    </script>
+  </head>
+  <body>
+  <button class="sembunyi">Sembunyikan</button><!--tombol untuk menampilkan perintah sembunyi-->
+  <button class="tampil">Tampilkan</button><!--tombol untuk menampilkan perintah tampil-->
+  <p><img src="https://www.upnjatim.ac.id/wp-content/uploads/2018/05/logoupnbaru.png" id="foto"></p><!--tombol untuk menampilkan perintah image disini dengan logo upn-->
+  </body>
+</html>

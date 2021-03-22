@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas 3 </title>
+    <script src="jquery-3.6.0.min.js"></script><!--perintah untuk mengaktifkan jquery-->
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $(".sembunyi").click(function(){$("#kotak").fadeOut("slow")});//digunakan untuk menyembunyikan kotak
+      $(".tampil").click(function() {$("#kotak").fadeTo("slow",1)});
+      $(".tampil03").click(function(){$("#kotak").fadeTo("slow",0.3)});
+      });
+    </script>
+  </head>
+  <style type="text/css">
+    #kotak{
+      width:300px;
+      height:50px;
+      background:yellow;
+      padding:5px;
+      border:1px solid black;
+
+    }
+  </style>
+  <body>
+  <button class="sembunyi" >FADE OUT</button>
+  <button class="tampil" >FADE IN</button>
+  <button class="tampil03">FADE IN 0.3</button>
+  <p id="kotak"hidden></p>
+  </body>
+ </html>

@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas 1</title>
+    <script src="jquery-3.6.0.min.js"></script><!--perintah untuk mengaktifkan jquery-->
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $(".sembunyi").click(function(){$("#foto").hide("slow")});//digunakan untuk menyembunyikan foto
+      $(".tampil").click(function() {$("#foto").show("slow")});//digunakan untuk menampilakn foto
+      });
+      $(document).ready(function(){
+      $(".sembunyi1").click(function(){$("#foto1").hide("slow")});//digunakan untuk menyembunyikan foto1
+      $(".tampil1").click(function() {$("#foto1").show("slow")});//digunakan untuk menampilakn foto1
+      });
+      $(document).ready(function(){
+      $(".sembunyi2").click(function(){$("#foto2").hide("slow")});//digunakan untuk menyembunyikan foto2
+      $(".tampil2").click(function() {$("#foto2").show("slow")});//digunakan untuk menampilakn foto2
+      });
+
+    </script>
+    </head>
+  <body>
+  <h1>ini pemandangan</h1>
+    <button class="sembunyi">Sembunyikan</button><!--tombol untuk menampilkan perintah sembunyi-->
+    <button class="tampil">Tampilkan</button><!--tombol untuk menampilkan perintah tampil-->
+  <p><img src="https://w.wallhaven.cc/full/j3/wallhaven-j3339m.jpg" hidden  id="foto"></p>
+  <h1>ini pesawat</h1>
+    <button class="sembunyi1">Sembunyikan</button><!--tombol untuk menampilkan perintah sembunyi-->
+    <button class="tampil1">Tampilkan</button><!--tombol untuk menampilkan perintah tampil-->
+  <p><img src="https://w.wallhaven.cc/full/pk/wallhaven-pkkm6p.png" hidden id="foto1"></p>
+  <h1>ini vinnyl disk</h1>
+    <button class="sembunyi2">Sembunyikan</button><!--tombol untuk menampilkan perintah sembunyi-->
+    <button class="tampil2">Tampilkan</button><!--tombol untuk menampilkan perintah tampil-->
+  <p><img src="https://w.wallhaven.cc/full/8o/wallhaven-8o7lmo.jpg" hidden id="foto2"></p>
+  </body>
+  </html>
