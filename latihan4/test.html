@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+	   <title>Tugas 2</title>
+   </head>
+   <style>
+  	  div {
+        background: yellow;
+        color: white;
+        height: 100px;
+        width: 150px;
+ 	}
+  	 div.dbl {
+       background: red;
+       color: black;
+	}
+  </style>
+  <script src="jquery-3.6.0.min.js"></script>
+  < body>
+  <span>klik 2x pada kotak untuk mengubah warna</span>
+  <div class="dbl"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <script>
+    var divdbl = $( "div" ).first();
+      divdbl.dblclick(function() {
+      divdbl.toggleClass( "dbl" );
+});
+</script>
+
+</body>
+</html>

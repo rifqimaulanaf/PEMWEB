@@ -1,0 +1,392 @@
+/* Rectangle 4 */
+.nav-name{
+    position: absolute;
+width: 1440px;
+height: 130px;
+left: 0px;
+top: 0px;
+
+background: #1AC49B;
+mix-blend-mode: multiply;
+
+text-align: center;
+font-family: Gothic A1;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 60px;
+
+color: #000000;
+
+border: 1px solid #000000;
+}
+
+.new-item{
+    position: absolute;
+    width: 1440px;
+    height: 110px;
+    left: 0px;
+    top: 130px;
+
+    background: #13A93D;
+    mix-blend-mode: multiply;
+
+}
+
+.new-links{
+    margin: 10px 30px;
+    display: flex;
+    list-style-type: none;
+    padding-left: 160px;
+    margin-top: 35px;
+}
+.new-links a{
+    text-decoration: none;
+    
+}
+.nav-link{
+    margin-left: 50px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+    
+}
+.btn-secondary{
+    width: 100px;
+    height: 100px;
+
+    background: rgba(17, 12, 231, 0.17);
+    mix-blend-mode: multiply;
+    border: 1px solid #2548C4;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-top: 125px;
+    margin-left: 1200px;
+}
+
+.text-item{
+    position: absolute;
+    width: 1440px;
+    height: 398px;
+    left: 0px;
+    top: 240px;
+
+    background: #D6F2C9;
+}
+
+.text{
+    position: absolute;
+    width: 1000px;
+    height: 140px;
+    left: 240px;
+    top: 70px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.pict{
+    margin-top: 400px;
+    
+}
+/* agya */
+.mobil1{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 240px;
+    top: 250px;
+
+    background: url(agya.jpg);
+}
+
+.agya{
+    position: absolute;
+    width: 152px;
+    height: 110px;
+    left: 260px;
+    top: 450px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* grandmax */
+.mobil3{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 240px;
+    top: 550px;
+
+    background: url(grandmax.jpg);
+}
+
+.grandmax{
+    position: absolute;
+    width: 152px;
+    height: 110px;
+    left: 260px;
+    top: 750px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* brio */
+.mobil5{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 240px;
+    top: 850px;
+
+    background: url(brio.jpg);
+}
+
+.brio{
+    position: absolute;
+    width: 152px;
+    height: 110px;
+    left: 260px;
+    top: 1050px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* newavanza */
+.mobil7{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 240px;
+    top: 1150px;
+
+    background: url(newavanza.jpg);
+}
+
+.newavanza{
+    position: absolute;
+    width: 250px;
+    height: 110px;
+    left: 260px;
+    top: 1350px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* terios */
+.mobil9{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 240px;
+    top: 1450px;
+
+    background: url(terios.jpg);
+}
+
+.terios{
+    position: absolute;
+    width: 152px;
+    height: 110px;
+    left: 260px;
+    top: 1650px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* ayla */
+.mobil2{
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    left: 800px;
+    top: 250px;
+
+    background: url(ayla.jpg);
+}
+
+.ayla{
+    position: absolute;
+    width: 152px;
+    height: 110px;
+    left: 830px;
+    top: 450px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* luxio */
+.mobil4{
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    left: 800px;
+    top: 550px;
+
+    background: url(luxio.jpg);
+}
+
+.luxio{
+    position: absolute;
+    width: 152px;
+    height: 110px;
+    left: 830px;
+    top: 750px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* glivina */
+.mobil6{
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    left: 800px;
+    top: 850px;
+
+    background: url(glivina.jpg);
+}
+
+.glivina{
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    left: 830px;
+    top: 1050px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* newxenia */
+.mobil8{
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    left: 800px;
+    top: 1150px;
+
+    background: url(newxenia.jpg);
+}
+
+.newxenia{
+    position: absolute;
+    width: 250px;
+    height: 110px;
+    left: 830px;
+    top: 1350px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* mobilio */
+.mobil10{
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    left: 800px;
+    top: 1450px;
+
+    background: url(mobilio.jpg);
+}
+
+.mobilio{
+    position: absolute;
+    width: 152px;
+    height: 110px;
+    left: 830px;
+    top: 1650px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.sewa{
+    position: absolute;
+    left: 530px;
+    top: 1800px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+}
